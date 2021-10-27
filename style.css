@@ -1,12 +1,16 @@
 #iphone{
-    width: 95vw;
     height: 95vh;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 @media only screen and (max-width:600px){
     #iphone{
-        width: 150vw;
-        height: 95vh;
+        height: 100vh;
         overflow: hidden;
     }
     
