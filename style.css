@@ -1,0 +1,13 @@
+#iphone{
+    width: 95vw;
+    height: 95vh;
+}
+
+@media only screen and (max-width:600px){
+    #iphone{
+        width: 150vw;
+        height: 95vh;
+        overflow: hidden;
+    }
+    
+}
