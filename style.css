@@ -8,10 +8,43 @@
     justify-content: center;
 }
 
+#webcam-container{
+    position: absolute;
+    max-width: 70px;
+    height: 50px;
+    top: 8%;
+    left: 40%;
+
+    align-items: left !important;
+    justify-content: left !important;
+}
+
+#result{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 13%;
+    left: 41%;
+    font-size: 16pt;
+
+    align-items: left !important;
+    justify-content: left !important;
+}
+
 @media only screen and (max-width:600px){
     #iphone{
         height: 100vh;
         overflow: hidden;
     }
     
+    #webcam-container{  
+        top: 9%;
+        left: 2%;
+       
+    }
+
+    #result{
+        top: 15%;
+        left: 9%;
+    }
 }
