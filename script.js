@@ -1,35 +1,9 @@
-const answer = ["Up", "Up", "Right"]
+const answer = ["Up", "Up", "Right", "Down", "Left"]
 let seq = []
 let i = 0;
 let fpsY= 75;
 let fpsX= 135;
 let currentlyMoving =false;
-
-
-
-// document.onkeydown = function (event) {
-
-//     switch (event.keyCode) {
-//         case 37:
-            
-//             moveLeft();
-//             break;
-//         case 38: 
-        
-//             moveUp();
-//             break;
-//         case 39:
-        
-//             moveRight();
-//             break;
-//         case 40:
-        
-//             moveDown();
-//             break;
-//         }
-
-//  };
-
 
 function moveLeft(){  
     if(!currentlyMoving){
@@ -100,7 +74,7 @@ function Move(direction, max, myTimer){
 
 
 
-const URL = "https://teachablemachine.withgoogle.com/models/X1SkYaAOO/";
+const URL = "https://teachablemachine.withgoogle.com/models/NUK59E5-F/";
 
 let model, webcam, labelContainer, maxPredictions;
 
