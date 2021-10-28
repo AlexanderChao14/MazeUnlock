@@ -73,8 +73,8 @@ function combination (input){
     if(arrayEquals(answer, seq)){
         // console.log("unlock")
         document.getElementById("iphone").src ="./Assets/Unlock.png";
-        document.getElementById("webcam-container").style("display:hidden;");
-        document.getElementById("result").style("display:hidden;");
+        document.getElementById("webcam-container").style.display="none";
+        document.getElementById("result").style.display="none";
     }
     console.log(seq)
 }   
